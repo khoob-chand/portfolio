@@ -32,7 +32,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             >
               <span className="bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
-                Himanshi
+              Khoobchand
               </span>
               <motion.span
                 className="text-pink-500"
