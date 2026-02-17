@@ -8,39 +8,34 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "himanshsharma7890@gmail.com",
+      value: "khoobchandjhariya48@gmail.com",
       color: "from-pink-400 to-rose-400",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9664469502",
+      value: "+91 624432600",
       color: "from-purple-400 to-indigo-400",
     },
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "Govind Nagar, Jaipur, Rajasthan",
-      color: "from-blue-400 to-cyan-400",
-    },
+    
   ];
 
  const socialLinks = [
   { 
     icon: Github, 
-    href: "https://github.com/Himanshi8790-Sharma",
+    href: "https://https://github.com/khoob-chand",
     color: "from-gray-600 to-gray-800", 
     hoverColor: "hover:from-pink-500 hover:to-rose-500" 
   },
   { 
     icon: Linkedin, 
-   href: "https:www.linkedin.com/in/himanshi-sharma-414b2a35b/", 
+   href: "https://www.linkedin.com/in/khoobchand-jhariya-819956202/", 
     color: "from-blue-500 to-blue-700", 
     hoverColor: "hover:from-purple-500 hover:to-indigo-500" 
   },
   { 
     icon: Mail, 
-    href: "mailto:himanshsharma7890@gmail.com",
+    href: "mailto:khoobchandjhariya48@gmail.com",
     color: "from-red-400 to-pink-500", 
     hoverColor: "hover:from-purple-500 hover:to-indigo-500" 
   }
