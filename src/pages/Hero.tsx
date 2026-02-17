@@ -264,7 +264,7 @@ const Hero = () => {
 
               <motion.a
                 href={resume}
-                download="Himanshi_Sharma_Resume.pdf"
+                download="khoobchand.pdf"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="group px-8 py-4 rounded-2xl font-bold text-gray-700 dark:text-slate-300 bg-white/80 dark:bg-slate-800/80 backdrop-blur-md border-2 border-purple-300 dark:border-slate-600 hover:border-purple-400 dark:hover:border-purple-500 shadow-lg hover:shadow-xl transition-all duration-300"

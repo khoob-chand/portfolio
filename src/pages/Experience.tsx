@@ -6,29 +6,30 @@ import laptop from "../assets/rightiamge.jpg";
 
 const experiences = [
   {
-    id: 1,
-    title: "Frontend Developer Intern",
-    company: "Zucol Solutions",
-    duration: "Dec 2025 - Present",
-    color: "from-pink-400 to-rose-400",
-    bgColor: "from-pink-50 to-rose-50",
-  },
-  {
-    id: 2,
-    title: "Data Management & Excel Associate",
-    company: "Sports For All (SFA)",
-    duration: "Dec 2024 - Jan 2025",
-    color: "from-purple-400 to-indigo-400",
-    bgColor: "from-purple-50 to-indigo-50",
-  },
-  {
-    id: 3,
-    title: "Full Stack Website Developer (Academic Project)",
-    company: "College Project",
-    duration: "Dec 2023 - Jan 2024",
-    color: "from-blue-400 to-cyan-400",
-    bgColor: "from-blue-50 to-cyan-50",
-  },
+  id: 1,
+  title: "Senior Software Engineer",
+  company: "Zucol Solutions, Jaipur",
+  duration: "Jan 2025 - Present",
+  color: "from-pink-400 to-rose-400",
+  bgColor: "from-pink-50 to-rose-50",
+},
+{
+  id: 2,
+  title: "Junior Software Developer",
+  company: "Thevaruni System Company",
+  duration: "August 2024 - May 2025",
+  color: "from-purple-400 to-indigo-400",
+  bgColor: "from-purple-50 to-indigo-50",
+},
+{
+  id: 3,
+  title: "Trainee",
+  company: "OpenSense Labs",
+  duration: "Jul 2022 - Jan 2022",
+  color: "from-blue-400 to-cyan-400",
+  bgColor: "from-blue-50 to-cyan-50",
+},
+
 ];
 
 const Experience = () => {

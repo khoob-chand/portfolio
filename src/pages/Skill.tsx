@@ -25,6 +25,7 @@ export const skillsImage = (skill: string) => {
     Bootstrap: "/skills/Bootstrap.svg",
     Tailwind: "/skills/TailwindCSS-Dark.svg",
     GitHub: "/skills/Github-Dark.svg",
+
   };
 
   return {

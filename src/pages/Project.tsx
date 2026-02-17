@@ -18,65 +18,13 @@ const projectsData = [
       "Developed the Zucol Solutions corporate website with a modern, fully responsive UI using React, TypeScript, and Tailwind CSS. Worked on UI development, component structuring, API integration, and interactive animations to enhance user experience and performance.",
     image: first,
     tags: ["React", "TypeScript", "Tailwind CSS", "API Integration", "Framer Motion"],
-    demoLink: "https://zucolsolutions.com/",
+    demoLink: "https://www.rentifyo.com/",
     githubLink: null,
     color: "from-pink-400 to-rose-400",
     bgGradient: "from-pink-50 to-rose-50",
   },
-  {
-    id: 2,
-    title: "Zucol Website UI Project",
-    description:
-      "Developed the Zucol company website with an improved modern UI using React, TypeScript, and Tailwind CSS. Focused on building responsive layouts, enhancing visual design, and creating a smooth user experience to present company information and projects effectively.",
-    image: second,
-    tags: ["React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
-    demoLink: "https://zucolsolutions.com/OLDZUCOL/index1.php",
-    githubLink: null,
-    color: "from-purple-400 to-indigo-400",
-    bgGradient: "from-purple-50 to-indigo-50",
-  },
-  {
-    id: 3,
-    title: "Bhawak Dashboard",
-    description:
-      "A responsive admin dashboard built using React, TypeScript, and Tailwind CSS. Developed multiple report modules, designed the main dashboard UI, integrated APIs for dynamic data, and handled various UI improvements with real-time data visualization.",
-    image: third,
-    tags: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "API Integration",
-      "Dashboard UI",
-    ],
-    demoLink: null,
-    githubLink: null,
-    color: "from-blue-400 to-cyan-400",
-    bgGradient: "from-blue-50 to-cyan-50",
-  },
-  {
-    id: 4,
-    title: "Quick Paste App",
-    description:
-      "A modern and responsive paste management app built with React and Redux Toolkit. Users can create, edit, delete, view, and share text or code snippets using unique links. Features smooth navigation with React Router and a clean glassmorphism UI designed with Tailwind CSS.",
-    image: forth,
-    tags: ["React", "Redux Toolkit", "React Router", "Tailwind CSS"],
-    demoLink: "https://quick-paste-app-nine.vercel.app/",
-    githubLink: "https://github.com/Himanshi8790-Sharma/Quick-Paste-App",
-    color: "from-teal-400 to-emerald-400",
-    bgGradient: "from-teal-50 to-emerald-50",
-  },
-  {
-    id: 5,
-    title: "To-Do Application",
-    description:
-      "A responsive To-Do List app built with React and Vite featuring full CRUD operations, due date selection, and task filtering by date. Includes reusable components, clean Tailwind UI, and optional LocalStorage support for task persistence.",
-    image: fifth,
-    tags: ["React", "Vite", "Tailwind CSS", "JavaScript", "LocalStorage"],
-    demoLink: "https://to-do-list-nine-bay-94.vercel.app/",
-    githubLink: "https://github.com/Himanshi8790-Sharma/To-do-list",
-    color: "from-orange-400 to-amber-400",
-    bgGradient: "from-orange-50 to-amber-50",
-  },
+  
+  
 ];
 
 const Project = () => {

@@ -198,7 +198,7 @@ const About = () => {
             <div className="relative overflow-hidden rounded-[2.5rem] bg-white/80 dark:bg-slate-800/80 backdrop-blur-md shadow-2xl shadow-purple-300/50 dark:shadow-purple-900/50 border border-white/50 dark:border-slate-700/50 p-3">
               <motion.img
                 src={profile}
-                alt="Himanshi Sharma"
+                alt="Khoobchand"
                 className="w-[320px] h-[400px] sm:w-[340px] sm:h-[420px] md:w-[360px] md:h-[440px] object-cover rounded-[2rem] relative z-10"
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
