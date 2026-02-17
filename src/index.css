@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme{
+  --color-primary:#3b82f6;
+  --color-primary-dark:#0d0d0d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Light Theme (Default) */
+:root {
+  /* Light Backgrounds */
+  --bg-primary: #fdf2f8; /* pink-50 */
+  --bg-secondary: #faf5ff; /* purple-50 */
+  --bg-tertiary: #eff6ff; /* blue-50 */
+  
+  /* Light Card backgrounds */
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --card-border: rgba(255, 255, 255, 0.5);
+  
+  /* Light Text colors */
+  --text-primary: #1f2937; /* gray-800 */
+  --text-secondary: #4b5563; /* gray-600 */
+  --text-tertiary: #6b7280; /* gray-500 */
+  
+  /* Light Gradient blobs */
+  --blob-pink: rgba(251, 207, 232, 0.7); /* pink-300 */
+  --blob-purple: rgba(216, 180, 254, 0.7); /* purple-300 */
+  --blob-blue: rgba(147, 197, 253, 0.7); /* blue-300 */
+}
+
+/* Dark Theme */
+.dark {
+  /* Dark Backgrounds */
+  --bg-primary: #0f172a; /* slate-900 */
+  --bg-secondary: #1e1b4b; /* indigo-950 */
+  --bg-tertiary: #1e293b; /* slate-800 */
+  
+  /* Dark Card backgrounds */
+  --card-bg: rgba(30, 41, 59, 0.8); /* slate-800 with opacity */
+  --card-border: rgba(51, 65, 85, 0.5); /* slate-700 with opacity */
+  
+  /* Dark Text colors */
+  --text-primary: #f1f5f9; /* slate-100 */
+  --text-secondary: #cbd5e1; /* slate-300 */
+  --text-tertiary: #94a3b8; /* slate-400 */
+  
+  /* Dark Gradient blobs */
+  --blob-pink: rgba(190, 24, 93, 0.4); /* pink-800 */
+  --blob-purple: rgba(88, 28, 135, 0.4); /* purple-900 */
+  --blob-blue: rgba(30, 58, 138, 0.4); /* blue-900 */
+}
+
+/* Smooth theme transition */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Custom scrollbar for light theme */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #ec4899, #a855f7);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #db2777, #9333ea);
+}
+
+/* Custom scrollbar for dark theme */
+.dark ::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #be185d, #581c87);
+  border-radius: 6px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #9f1239, #4c1d95);
+}
+
+/* Animation keyframes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(to right, #ec4899, #a855f7, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
