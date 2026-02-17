@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import coderImg from "../assets/right.svg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiDownload, HiMail, HiSparkles } from "react-icons/hi";
-import resume from "../assets/Himanshi.pdf";
+import resume from "../assets/khoobchand.pdf";
 
 const Hero = () => {
   return (
