@@ -145,7 +145,7 @@ const Hero = () => {
                     transition={{ duration: 5, repeat: Infinity, delay: 0.5 }}
                     style={{ backgroundSize: "200% auto" }}
                   >
-                    Sharma
+                    Jhariya
                   </motion.span>
                 </h1>
               </motion.div>
