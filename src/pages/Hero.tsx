@@ -134,7 +134,7 @@ const Hero = () => {
                     transition={{ duration: 5, repeat: Infinity }}
                     style={{ backgroundSize: "200% auto" }}
                   >
-                    Himanshi
+                   Khoobchand
                   </motion.span>
                   <br />
                   <motion.span
