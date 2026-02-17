@@ -28,13 +28,13 @@ const Footer = () => {
   const socialLinks = [
     { 
       icon: Github, 
-      href: "https://github.com/Himanshi8790-Sharma", 
+      href: "https://github.com/khoob-chand", 
       label: "GitHub",
       color: "hover:text-gray-800 dark:hover:text-white"
     },
     { 
       icon: Linkedin, 
-      href: "https:www.linkedin.com/in/himanshi-sharma-414b2a35b/", 
+      href: "https://www.linkedin.com/in/khoobchand-jhariya-819956202/", 
       label: "LinkedIn",
       color: "hover:text-blue-600 dark:hover:text-blue-400"
     },
@@ -44,18 +44,15 @@ const Footer = () => {
   const contactInfo = [
     { 
       icon: Mail, 
-      text: "himanshsharma7890@gmail.com",
-      href: "mailto:himanshsharma7890@gmail.com"
+      text: "khoobchandjhariy48@gmail.com",
+      href: "khoobchandjhariy48@gmail.com"
     },
     { 
       icon: Phone, 
-      text: "+91 9664469502",
-      href: "tel:+919664469502"
+      text: "+91 6264432600",
+      href: "tel:+91 6264432600"
     },
-    { 
-      icon: MapPin, 
-      text: "Govind Nagar, Jaipur, Rajasthan"
-    },
+    
   ];
 
   const scrollToTop = () => {
@@ -136,7 +133,7 @@ const Footer = () => {
                 whileHover={{ scale: 1.05 }}
               >
                 <span className="bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
-                  Himanshi
+                  Khoobchand
                 </span>
                 <motion.span
                   className="text-pink-500"
@@ -308,7 +305,7 @@ const Footer = () => {
             <Heart className="inline w-4 h-4 text-pink-500 fill-pink-500 animate-pulse" />{" "}
             by{" "}
             <span className="font-bold bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
-              Himanshi Sharma
+              Khoobchand Sharma
             </span>
           </motion.p>
 

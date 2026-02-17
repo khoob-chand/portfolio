@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin,  Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
 import { HiSparkles } from "react-icons/hi";
 
 export default function Contact() {
@@ -17,34 +17,34 @@ export default function Contact() {
       value: "+91 624432600",
       color: "from-purple-400 to-indigo-400",
     },
-    
+
   ];
 
- const socialLinks = [
-  { 
-    icon: Github, 
-    href: "https://https://github.com/khoob-chand",
-    color: "from-gray-600 to-gray-800", 
-    hoverColor: "hover:from-pink-500 hover:to-rose-500" 
-  },
-  { 
-    icon: Linkedin, 
-   href: "https://www.linkedin.com/in/khoobchand-jhariya-819956202/", 
-    color: "from-blue-500 to-blue-700", 
-    hoverColor: "hover:from-purple-500 hover:to-indigo-500" 
-  },
-  { 
-    icon: Mail, 
-    href: "mailto:khoobchandjhariya48@gmail.com",
-    color: "from-red-400 to-pink-500", 
-    hoverColor: "hover:from-purple-500 hover:to-indigo-500" 
-  }
-];
+  const socialLinks = [
+    {
+      icon: Github,
+      href: "https://https://github.com/khoob-chand",
+      color: "from-gray-600 to-gray-800",
+      hoverColor: "hover:from-pink-500 hover:to-rose-500"
+    },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/in/khoobchand-jhariya-819956202/",
+      color: "from-blue-500 to-blue-700",
+      hoverColor: "hover:from-purple-500 hover:to-indigo-500"
+    },
+    {
+      icon: Mail,
+      href: "mailto:khoobchandjhariya48@gmail.com",
+      color: "from-red-400 to-pink-500",
+      hoverColor: "hover:from-purple-500 hover:to-indigo-500"
+    }
+  ];
 
 
   return (
     <section className="relative w-full min-h-screen py-20 md:py-28 px-6 md:px-10 overflow-hidden bg-linear-to-br from-purple-50 via-pink-50 to-blue-50 dark:from-slate-900 dark:via-indigo-950 dark:to-slate-800" id="contact">
-      
+
       {/* Animated background blobs */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -111,7 +111,7 @@ export default function Contact() {
       ))}
 
       <div className="relative max-w-6xl mx-auto z-10">
-        
+
         {/* Title */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -136,7 +136,7 @@ export default function Contact() {
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-          
+
           {/* LEFT - FORM */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -146,11 +146,11 @@ export default function Contact() {
             className="order-2 lg:order-1"
           >
             <div className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-md border border-white/50 dark:border-slate-700/50 rounded-3xl p-8 md:p-10 shadow-2xl dark:shadow-purple-900/50">
-             <p className="text-gray-700 dark:text-slate-300 mb-8 text-base md:text-lg leading-relaxed font-medium">
-  Have a project in mind or looking for a developer to bring your ideas to life? 
-  I'm open to freelance work, internships, and full-time opportunities. 
-  Feel free to reach out — let's build something amazing together.
-</p>
+              <p className="text-gray-700 dark:text-slate-300 mb-8 text-base md:text-lg leading-relaxed font-medium">
+                Have a project in mind or looking for a developer to bring your ideas to life?
+                I'm open to freelance work, internships, and full-time opportunities.
+                Feel free to reach out — let's build something amazing together.
+              </p>
 
 
               <form className="space-y-6">
@@ -242,7 +242,7 @@ export default function Contact() {
             transition={{ duration: 0.8 }}
             className="flex flex-col justify-start space-y-6 order-1 lg:order-2"
           >
-            
+
             {contactItems.map((item, index) => (
               <motion.div
                 key={index}
@@ -287,29 +287,29 @@ export default function Contact() {
               </p>
               <div className="flex gap-4 justify-center md:justify-start">
                 {socialLinks.map((social, idx) => (
-  <motion.a
-    key={idx}
-    href={social.href}
-    target="_blank"
-    rel="noopener noreferrer"
-    whileHover={{ scale: 1.15, rotate: 5, y: -5 }}
-    whileTap={{ scale: 0.9 }}
-    initial={{ opacity: 0, scale: 0 }}
-    whileInView={{ opacity: 1, scale: 1 }}
-    viewport={{ once: true }}
-    transition={{ delay: 0.7 + idx * 0.1, type: "spring", stiffness: 200 }}
-    className={`p-4 rounded-2xl bg-linear-to-br ${social.color} ${social.hoverColor} transition-all cursor-pointer shadow-lg hover:shadow-xl`}
-  >
-    <social.icon size={24} className="text-white" />
-  </motion.a>
-))}
+                  <motion.a
+                    key={idx}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.15, rotate: 5, y: -5 }}
+                    whileTap={{ scale: 0.9 }}
+                    initial={{ opacity: 0, scale: 0 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.7 + idx * 0.1, type: "spring", stiffness: 200 }}
+                    className={`p-4 rounded-2xl bg-linear-to-br ${social.color} ${social.hoverColor} transition-all cursor-pointer shadow-lg hover:shadow-xl`}
+                  >
+                    <social.icon size={24} className="text-white" />
+                  </motion.a>
+                ))}
 
               </div>
             </motion.div>
           </motion.div>
         </div>
 
-      
+
       </div>
     </section>
   );
