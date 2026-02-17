@@ -25,7 +25,7 @@ const experiences = [
   id: 3,
   title: "Trainee",
   company: "OpenSense Labs",
-  duration: "Jul 2022 - Jan 2022",
+  duration: "Jul 2022 - Jan 2023",
   color: "from-blue-400 to-cyan-400",
   bgColor: "from-blue-50 to-cyan-50",
 },
