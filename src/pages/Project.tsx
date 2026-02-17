@@ -4,10 +4,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HiSparkles, HiCode, HiExternalLink, HiEye } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
 import first from "../assets/zucol.png";
-import second from "../assets/zucolold.png"
-import third from "../assets/bthawk.png"
-import forth from "../assets/paste.png"
-import fifth from "../assets/todo.png"
+// import second from "../assets/zucolold.png"
+// import third from "../assets/bthawk.png"
+// import forth from "../assets/paste.png"
+// import fifth from "../assets/todo.png"
 
 // Projects data
 const projectsData = [

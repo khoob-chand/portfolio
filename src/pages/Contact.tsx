@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone,  Github, Linkedin, Send } from "lucide-react";
 import { HiSparkles } from "react-icons/hi";
 
 export default function Contact() {
