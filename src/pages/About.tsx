@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profile from "../assets/photo.jpeg";
+import profile from "../assets/khoobchand.jpg";
 import { HiSparkles, HiCode, HiHeart, HiLightningBolt } from "react-icons/hi";
 
 const About = () => {
@@ -115,7 +115,7 @@ const About = () => {
   <p>
     My name is{" "}
     <span className="font-bold bg-linear-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-      Himanshi Sharma
+     Khoobchand Jhariya
     </span>
     , a dedicated Frontend Developer with a strong command of modern web technologies. 
     I build responsive, high-performance, and visually appealing web applications 
