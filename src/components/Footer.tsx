@@ -3,7 +3,6 @@ import {
   Heart, 
   Mail, 
   Phone, 
-  MapPin, 
   Github, 
   Linkedin, 
   ArrowUp,
